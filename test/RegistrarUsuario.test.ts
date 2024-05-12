@@ -1,7 +1,7 @@
-import BancoEmMemoria from "../src/BancoEmMemoria"
-import InverterSenha from "../src/InverterSenha"
-import RegistrarUsuario from "../src/RegistrarUsuario"
-import SenhaComEspaco from "../src/SenhaComEspaco"
+import BancoEmMemoria from "../src/exemplo/adaptadores/db/BancoEmMemoria"
+import InverterSenha from "../src/exemplo/adaptadores/auth/InverterSenha"
+import RegistrarUsuario from "../src/exemplo/app/usuario/RegistrarUsuario"
+import SenhaComEspaco from "../src/exemplo/adaptadores/auth/SenhaComEspaco"
 
 
 test('deve registrar um usuario invertendo a senha', () => {
