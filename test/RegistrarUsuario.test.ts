@@ -53,6 +53,6 @@ test('deve registrar um usuario com bcrypt', () => {
 
   expect(usuario).toHaveProperty('id')
   expect(usuario.nome).toBe('João')
-  expect(provedorCripto.comparar('1234', usuario.senha)).toBeTruthy()
+  expect(provedorCripto.comparar('1234', usuario.senha!)).toBeTruthy()
 
 })
